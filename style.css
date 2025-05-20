@@ -1,0 +1,81 @@
+body{
+  height: 100vh;
+  background-image: linear-gradient(90deg, #1CB5E0 0%, #000851 100%)
+}
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.logo {
+  background-color: beige;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+}
+.container {
+  max-width: 900px;
+  border: 2px solid black;
+  border-radius: 9px;
+  margin: auto;
+  height: 50vh;
+  padding: 30px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.Message {
+  background-color: rgb(146, 139, 139);
+  width: 24%;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.right {
+  float: right;
+  clear: both;
+  border : 2px solid black;
+  background-color: rgb(146, 139, 139);
+  margin: 5px;
+}
+
+.left {
+  float: left;
+  clear: both;
+  border : 2px solid black;
+  background-color: rgb(146, 139, 139);
+  margin: 5px;
+
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+   text-align: center;
+   max-width: 900px;
+   width: 100%;
+}
+#msgInp{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 30px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 30px;
+    width:9%;
+}
